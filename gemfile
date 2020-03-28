@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+ruby '2.5.1'
+gem 'sinatra'
+gem 'httparty'
+gem 'fb_graph2'
+gem 'json', '~> 1.8', '>= 1.8.3'
+gem 'google-api-client', '~> 0.34'
+gem 'dotenv'
+
+group :test, :development do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'pry'
+  gem 'rb-readline'
+end

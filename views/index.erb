@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FACEBOOK SUCKS</title>
+  </head>
+  <body>
+    <% @events.each do |event| %>
+      <%= event[:name] %>
+      <%= event[:start_time] %>
+      <%= event[:description] %>
+    <br>
+    <br>
+    <br>
+    <% end %>
+  </body>
+</html>
